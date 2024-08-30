@@ -1,0 +1,1 @@
+Use the documentation folder for any documentation that a developer would need to understand the project.
