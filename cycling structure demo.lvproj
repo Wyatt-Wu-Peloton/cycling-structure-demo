@@ -14,18 +14,18 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Depencencies from packages" Type="Folder"/>
 		<Item Name="Modules" Type="Folder">
-			<Item Name="Rename As Application UI.lvlib" Type="Library" URL="../Libraries/Rename As Application UI/Rename As Application UI.lvlib"/>
+			<Item Name="cycling structure demo UI.lvlib" Type="Library" URL="../Libraries/Rename As Application UI/cycling structure demo UI.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Item Name="cycling structure demo Shared.lvlib" Type="Library" URL="../Libraries/Rename As Application Shared/cycling structure demo Shared.lvlib"/>
 			<Item Name="Launcher Support.lvlib" Type="Library" URL="../Libraries/Launcher Support/Launcher Support.lvlib"/>
 			<Item Name="Rename As Application Name.ico" Type="Document" URL="../Rename As Application Name.ico"/>
-			<Item Name="Rename as Application Shared.lvlib" Type="Library" URL="../Libraries/Rename As Application Shared/Rename as Application Shared.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Peloton_lib_Test DCFG Framework API.vi" Type="VI" URL="/&lt;vilib&gt;/Peloton/Peloton Config/DCFG Framework/Peloton_lib_Test DCFG Framework API.vi"/>
 			<Item Name="Test Rename As Application UI API.vi" Type="VI" URL="../Libraries/Rename As Application UI/Test Rename As Application UI API.vi"/>
 		</Item>
-		<Item Name="Rename As Application Main.vi" Type="VI" URL="../Rename As Application Main.vi"/>
+		<Item Name="cycling structure demo Main.vi" Type="VI" URL="../cycling structure demo Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -157,50 +157,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Rename As Application Name" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{8050AF66-E4F6-415B-A513-535BC7EDA951}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C15CBF94-0CC1-4946-AD6E-5E8AA124F6BE}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{5B621C12-947D-4B1F-8FFB-20E11D199D19}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Build specification for "Rename As Application Name". In order to launch this application in debug mode, drag the exe to a command prompt and as an argument -- debug.</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Rename As Application Name</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/RenameAsApplicationName</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{EA1918F7-B67B-4826-9A06-E716B93F8D16}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">RenameAsApplicationName.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/RenameAsApplicationName/RenameAsApplicationName.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/RenameAsApplicationName/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Rename As Application Name.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DD9E9EE-F857-4D18-9BB3-E470A317B7D9}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Rename As Application Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Peloton Interactive, Inc</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Rename As Application Name</Property>
-				<Property Name="TgtF_internalName" Type="Str">Rename As Application Name</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Peloton Interactive, Inc</Property>
-				<Property Name="TgtF_productName" Type="Str">Rename As Application Name</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{DB883995-1D4F-459C-B8C8-D653782496C9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">RenameAsApplicationName.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
