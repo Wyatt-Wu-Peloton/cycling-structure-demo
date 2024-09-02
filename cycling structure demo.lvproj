@@ -15,6 +15,7 @@
 		<Item Name="Depencencies from packages" Type="Folder"/>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="cycling structure demo UI.lvlib" Type="Library" URL="../Libraries/Rename As Application UI/cycling structure demo UI.lvlib"/>
+			<Item Name="Sensor checking module.lvlib" Type="Library" URL="../Libraries/Sensor checking module/Sensor checking module.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="cycling structure demo Shared.lvlib" Type="Library" URL="../Libraries/Rename As Application Shared/cycling structure demo Shared.lvlib"/>
@@ -24,6 +25,7 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Peloton_lib_Test DCFG Framework API.vi" Type="VI" URL="/&lt;vilib&gt;/Peloton/Peloton Config/DCFG Framework/Peloton_lib_Test DCFG Framework API.vi"/>
 			<Item Name="Test Rename As Application UI API.vi" Type="VI" URL="../Libraries/Rename As Application UI/Test Rename As Application UI API.vi"/>
+			<Item Name="Test Sensor checking module API.vi" Type="VI" URL="../Libraries/Sensor checking module/Test Sensor checking module API.vi"/>
 		</Item>
 		<Item Name="cycling structure demo Main.vi" Type="VI" URL="../cycling structure demo Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
