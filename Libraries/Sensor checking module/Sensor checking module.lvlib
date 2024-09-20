@@ -20,11 +20,13 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Start sensor checking Argument--cluster.ctl" Type="VI" URL="../Start sensor checking Argument--cluster.ctl"/>
+				<Item Name="Stop sensor checking Argument--cluster.ctl" Type="VI" URL="../Stop sensor checking Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Triggered Broadcast Argument--cluster.ctl" Type="VI" URL="../Triggered Broadcast Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -34,6 +36,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Start sensor checking.vi" Type="VI" URL="../Start sensor checking.vi"/>
+			<Item Name="Stop sensor checking.vi" Type="VI" URL="../Stop sensor checking.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -51,9 +54,18 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Triggered Broadcast.vi" Type="VI" URL="../Triggered Broadcast.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Private Requests" Type="Folder">
+			<Item Name="Priv Req Arguments" Type="Folder">
+				<Item Name="Wake up HL Argument--cluster.ctl" Type="VI" URL="../Wake up HL Argument--cluster.ctl"/>
+				<Item Name="Sleep HL Argument--cluster.ctl" Type="VI" URL="../Sleep HL Argument--cluster.ctl"/>
+			</Item>
+			<Item Name="Wake up HL.vi" Type="VI" URL="../Wake up HL.vi"/>
+			<Item Name="Sleep HL.vi" Type="VI" URL="../Sleep HL.vi"/>
+		</Item>
 		<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Request Events--cluster.ctl"/>
 		<Item Name="Obtain Request Events.vi" Type="VI" URL="../Obtain Request Events.vi"/>
 		<Item Name="Destroy Request Events.vi" Type="VI" URL="../Destroy Request Events.vi"/>

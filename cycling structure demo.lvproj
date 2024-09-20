@@ -14,16 +14,19 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Depencencies from packages" Type="Folder"/>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Cycling by State module.lvlib" Type="Library" URL="../Libraries/Cycling by State module/Cycling by State module.lvlib"/>
 			<Item Name="cycling structure demo UI.lvlib" Type="Library" URL="../Libraries/Rename As Application UI/cycling structure demo UI.lvlib"/>
 			<Item Name="Sensor checking module.lvlib" Type="Library" URL="../Libraries/Sensor checking module/Sensor checking module.lvlib"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="cycling structure demo Shared.lvlib" Type="Library" URL="../Libraries/Rename As Application Shared/cycling structure demo Shared.lvlib"/>
 			<Item Name="Launcher Support.lvlib" Type="Library" URL="../Libraries/Launcher Support/Launcher Support.lvlib"/>
-			<Item Name="Rename As Application Name.ico" Type="Document" URL="../Rename As Application Name.ico"/>
+			<Item Name="cycling structure demo.ico" Type="Document" URL="../cycling structure demo.ico"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Peloton_lib_Test DCFG Framework API.vi" Type="VI" URL="/&lt;vilib&gt;/Peloton/Peloton Config/DCFG Framework/Peloton_lib_Test DCFG Framework API.vi"/>
+			<Item Name="Test Cycling by State module API.vi" Type="VI" URL="../Libraries/Cycling by State module/Test Cycling by State module API.vi"/>
 			<Item Name="Test Rename As Application UI API.vi" Type="VI" URL="../Libraries/Rename As Application UI/Test Rename As Application UI API.vi"/>
 			<Item Name="Test Sensor checking module API.vi" Type="VI" URL="../Libraries/Sensor checking module/Test Sensor checking module API.vi"/>
 		</Item>
