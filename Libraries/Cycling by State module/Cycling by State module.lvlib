@@ -21,11 +21,14 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Start cycling Argument--cluster.ctl" Type="VI" URL="../Start cycling Argument--cluster.ctl"/>
 				<Item Name="Stop cycling Argument--cluster.ctl" Type="VI" URL="../Stop cycling Argument--cluster.ctl"/>
+				<Item Name="Put Cycling HL to sleep Argument--cluster.ctl" Type="VI" URL="../Put Cycling HL to sleep Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Cycling status Argument--cluster.ctl" Type="VI" URL="../Cycling status Argument--cluster.ctl"/>
+				<Item Name="RPM updated Argument--cluster.ctl" Type="VI" URL="../RPM updated Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -36,6 +39,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Start cycling.vi" Type="VI" URL="../Start cycling.vi"/>
 			<Item Name="Stop cycling.vi" Type="VI" URL="../Stop cycling.vi"/>
+			<Item Name="Put Cycling HL to sleep.vi" Type="VI" URL="../Put Cycling HL to sleep.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -53,6 +57,8 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Cycling status.vi" Type="VI" URL="../Cycling status.vi"/>
+		<Item Name="RPM updated.vi" Type="VI" URL="../RPM updated.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

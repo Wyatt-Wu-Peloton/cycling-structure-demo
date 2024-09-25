@@ -54,7 +54,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
-		<Item Name="Triggered Broadcast.vi" Type="VI" URL="../Triggered Broadcast.vi"/>
+		<Item Name="RPM Broadcast.vi" Type="VI" URL="../RPM Broadcast.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
