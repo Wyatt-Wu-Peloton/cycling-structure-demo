@@ -93,6 +93,7 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
+			<Item Name="Simulated sensor signal HL Data.ctl" Type="VI" URL="../Simulated sensor signal HL Data.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Module Sync" Type="Folder">

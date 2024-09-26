@@ -95,7 +95,6 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Cycling HL Data--cluster.ctl" Type="VI" URL="../Cycling HL Data--cluster.ctl"/>
-			<Item Name="Cycling state.ctl" Type="VI" URL="../Cycling state.ctl"/>
 			<Item Name="Module Data--cluster.ctl" Type="VI" URL="../Module Data--cluster.ctl"/>
 		</Item>
 	</Item>
